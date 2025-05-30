@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriBot - Seu Assistente Nutricional</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <i class="material-icons">restaurant_menu</i>
+            <h1>NutriBot</h1>
+            <p>Seu assistente para uma alimentação saudável!</p>
+        </header>
+        <div id="chat-box" class="chat-box">
+            <!-- Mensagens aparecerão aqui -->
+            <div class="message bot">
+                <div class="message-content">
+                    Olá! 👋 Sou o NutriBot. Como posso te ajudar ?
+                </div>
+            </div>
+        </div>
+        <footer class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem aqui..." autocomplete="off">
+            <button id="send-button" class="send-button">
+                <i class="material-icons">send</i>
+            </button>
+            <button id="search-button" class="search-button">
+                <i class="material-icons">search</i>
+            </button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

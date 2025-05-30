@@ -1,0 +1,20 @@
+{
+  "conversas": [
+    {
+      "mensagens": [
+        "iniciar pesquisa",
+        "como busco uma receita?",
+        "como peço uma receita?",
+        "como faço para encontrar algo?",
+        "quero pesquisar receitas",
+        "quero pesquisar uma receita",
+        "quero procurar por uma receita",
+        "quero receitas",
+        "preciso de uma receita",
+        "buscar receitas",
+        "encontrar receitas"
+      ],
+      "resposta": "Vamos iniciar sua pesquisa por receitas! Informe os ingredientes separados por vírgula para que eu possa encontrar as receitas adequadas."
+    }
+  ]
+}

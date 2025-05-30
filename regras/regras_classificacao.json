@@ -1,0 +1,67 @@
+{
+  "vegana": {
+    "proibidos": [
+      "carne", "frango", "peixe", "ovo", "leite", "manteiga", "queijo", "mel", "iogurte", "requeijão", "soro", "ricota", "soro de leite", "gelatina", "creme de leite", "qualhada"
+    ]
+  },
+  "vegetariana": {
+    "proibidos": [
+      "carne", "frango", "peixe", "presunto", "bacon", "salsicha", "gelatina animal", "calabresa", "frutos do mar", "banha animal", "coalho animal", "caldo de carne", "anchovas", "omega-3 de origem animal", "caviar", "porco"
+    ]
+  },
+  "sem_lactose": {
+    "proibidos": [
+      "leite", "queijo", "manteiga", "creme de leite", "iogurte", "requeijão",
+      "leite condensado", "leite em pó", "soro de leite", "sorvete de leite",
+      "chocolate ao leite", "doce de leite", "molho branco", "molho quatro queijos"
+    ]
+  },
+  "sem_gluten": {
+    "proibidos": [
+      "farinha de trigo", "trigo", "pão", "bolo", "biscoito", "macarrão", "massa", "pizza", "panqueca", "aveia", "cevada",
+      "centeio", "malte", "cerveja", "empanados", "nhoque", "seitan"
+    ]
+  },
+  "sem_acucar": {
+    "proibidos": [
+      "açúcar", "acucar", "açucar", "mascavo", "demerara", "açúcar cristal",
+      "mel", "xarope", "xarope de glicose", "xarope de milho", "melaço", "melaco",
+      "sacarose", "lactose", "frutose", "sucos industrializados",
+      "refrigerante", "doces", "balas", "chicletes", "sorvete", "achocolatado", "geleia", "bolo doce", "biscoito recheado"
+    ]
+  },
+  "bulking": {
+    "proibidos": [
+      "alface", "rúcula", "agrião", "pepino", "abobrinha", "chuchu",
+      "berinjela", "couve-flor", "brócolis", "aspargo", "ervilha",
+      "repolho", "quiabo", "salsão", "nabo", "rabanete",
+      "diet", "light"
+    ],
+    "permitidos": [
+      "arroz branco", "arroz integral", "macarrão", "batata doce", "mandioca",
+      "inhame", "carne", "frango", "peixe", "ovos", "porco", "azeite de oliva",
+      "óleo de coco", "amendoim", "castanha", "castanha do pará",
+      "nozes", "pasta de amendoim", "leite", "iogurte",
+      "aveia", "banana", "abacate", "mel", "granola", "pão",
+      "queijo", "creme de leite", "massa", "molho de tomate",
+      "sorvete","shakes",
+      "leite em pó", "molho de carne"
+    ]
+  },
+  "cutting": {
+    "proibidos": [
+      "arroz branco", "açúcar", "macarrão", "farinha de trigo", "pão francês",
+      "pão de forma", "bolo", "biscoito recheado", "refrigerante", "leite condensado",
+      "achocolatado", "geleia", "mel", "batata inglesa", "chocolate ao leite", "chocolate", "bombom", "pasta de amendoim", "barra de cereal", "iogurte", "sorvete", "doce",
+      "calda", "agridoce", "barbecue", "rosé",
+      "queijo", "molho branco", "molho de tomate",
+      "granola", "pipoca", "farofa", "fritura", "frituras", "batata frita", "batata chips", "salgadinhos"
+    ]
+  },
+  "alergicos": {
+    "proibidos": [
+      "amendoim", "castanha de caju", "castanha do pará", "noz", "avelã",
+      "pistache", "amêndoa", "camarão", "frutos do mar", "moluscos"
+    ]
+  }
+}

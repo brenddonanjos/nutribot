@@ -1,0 +1,26 @@
+{
+  "conversas": [
+    {
+      "mensagens": [
+        "oi",
+        "olá",
+        "e aí?",
+        "como vai?",
+        "tudo bem?",
+        "oi, tudo bem?",
+        "bom dia",
+        "boa tarde",
+        "boa noite"
+      ],
+      "resposta": "Olá! Sou seu assistente nutricional virtual. Posso te ajudar a encontrar receitas ideais. Digite 'quero receitas' ou clique no botão de pesquisa 🔍"
+    },
+    {
+      "mensagens": ["obrigado", "valeu", "muito obrigado", "ajudou muito"],
+      "resposta": "De nada! Fico feliz em ajudar. Se precisar de mais alguma coisa ou outra receita, é só digitar 'Perguntar novamente'!"
+    },
+    {
+      "mensagens": ["tchau", "até mais", "vou sair agora"],
+      "resposta": "Até a próxima! Espero ter ajudado. Volte sempre que precisar de inspiração culinária saudável!"
+    }
+  ]
+}

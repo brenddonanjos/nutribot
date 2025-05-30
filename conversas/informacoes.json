@@ -1,0 +1,76 @@
+{
+  "conversas": [
+    {
+      "mensagens": [
+        "o que você faz?",
+        "como você pode me ajudar?",
+        "qual sua função?",
+        "para que você serve?",
+        "o que você pode fazer por mim?",
+        "quais são suas habilidades?",
+        "quais são suas funções?",
+        "quem é você?"
+      ],
+      "resposta": "Eu sou um chatbot nutricionista! Posso te ajudar a encontrar receitas com base em ingredientes, seus objetivos (como bulking ou cutting) e restrições alimentares (como zero lactose, zero glúten, zero açúcar, etc.)."
+    },
+    {
+      "mensagens": [
+        "você substitui um nutricionista?",
+        "suas dicas são médicas?",
+        "posso seguir suas receitas sem consultar um médico?"
+      ],
+      "resposta": "Sou um sistema para te auxiliar com ideias de receitas e informações gerais! Lembre-se que minhas sugestões não substituem o acompanhamento e as orientações personalizadas de um nutricionista ou profissional de saúde. Sempre consulte um especialista."
+    },
+    {
+      "mensagens": [
+        "de onde vêm suas receitas?",
+        "qual a fonte das suas informações?",
+        "suas receitas são confiáveis?"
+      ],
+      "resposta": "Minhas receitas são extraídas de uma base de dados (arquivos .txt) cuidadosamente preparada, com foco em variedade e objetivos nutricionais específicos."
+    },
+    {
+      "mensagens": [
+        "você tem receitas para quais dietas?",
+        "quais tipos de dietas você cobre?",
+        "que tipo de objetivo nutricional você ajuda?",
+        "você tem receitas para dietas específicas?",
+        "quais são os objetivos nutricionais das suas receitas?"
+      ],
+      "resposta": "Eu tenho receitas para objetivos como bulking (ganho de massa), cutting (perda de gordura), dietas low carb, high carb, e também para restrições como zero lactose, zero glúten, zero açúcar, e algumas que evitam alérgenos comuns como amendoim ou camarão."
+    },
+    {
+      "mensagens": [
+        "você ajuda a emagrecer?",
+        "quero receitas para perder peso",
+        "preciso ganhar massa muscular, você ajuda?"
+      ],
+      "resposta": "Sim! Posso te mostrar receitas para 'cutting' se seu objetivo é perda de gordura, ou receitas para 'bulking' se você busca ganho de massa muscular.\nDigite 'iniciar pesquisa' para começar!"
+    },
+    {
+      "mensagens": [
+        "tenho alergia a amendoim, você tem receitas sem?",
+        "sou intolerante à lactose, e agora?",
+        "preciso de receitas sem glúten para o café da manhã",
+        "Sou diabético, você tem receitas sem açúcar?"
+      ],
+      "resposta": "Com certeza! Tenho receitas para as mais diversas restrições, como 'zero glúten', 'zero lactose', 'zero açúcar', 'sem amendoim', 'sem camarão', etc., e para qual refeição você busca, que eu farei o meu melhor para encontrar opções adequadas.\nDigite 'iniciar pesquisa' para começar!"
+    },
+    {
+      "mensagens": [
+        "quais tipos de refeição você tem?",
+        "você tem receitas para lanches?",
+        "e sobremesas?"
+      ],
+      "resposta": "Eu tenho receitas para café da manhã, almoço, jantar e lanches! No momento, meu foco não são sobremesas tradicionais, mas alguns lanches podem ser adaptados como opções mais saudáveis e doces."
+    },
+    {
+      "mensagens": [
+        "suas receitas são complexas?",
+        "as receitas são fáceis de fazer?",
+        "preciso de algo rápido"
+      ],
+      "resposta": "Eu tenho uma variedade de receitas, desde algumas mais simples até outras um pouco mais elaboradas. O modo de preparo está detalhado em cada uma. Se você especificar que busca algo 'rápido' ou 'fácil', posso tentar priorizar isso na busca, mas o principal são os objetivos nutricionais."
+    }
+  ]
+}
