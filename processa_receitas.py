@@ -101,27 +101,6 @@ def extrair_tipos_refeicao(conteudo):
   
   return tipo_refeicao
 
-def extrair_objetivos_restricoes(ingredientes):
-  objetivos_restricoes = []
-  regras = None
-
-  try:
-    with open(PATH_REGRAS_CLASSIFICACAO, "r", encoding="utf-8") as arquivo:
-      regras = json.load(arquivo)
-  except Exception as e: 
-      print(f"Erro ao ler o arquivo de regras: {e}")
-
-  if regras:
-    teste = []
-    for objetivo, regra in regras.items():
-      proibidos = regra.get("proibidos", [])
-      if proibidos and len(proibidos) > 0: 
-        teste.append(proibidos)
-
-    return teste
-  
-  return objetivos_restricoes
-
 def remove_palavras_de_parada(tokens, palavras_de_parada):
   tokens_filtrados = []
 
@@ -186,15 +165,15 @@ def inicia_banco():
   con = sqlite3.connect(BD_RECEITAS)
 
   cursor = con.cursor()
-  cursor.execute("CREATE TABLE IF NOT EXISTS receitas (id INTEGER PRIMARY KEY AUTOINCREMENT, arquivo TEXT, titulo TEXT, ingredientes TEXT, tipos_refeicao TEXT, objetivos_restricoes TEXT, modo_preparo TEXT )")
+  cursor.execute("CREATE TABLE IF NOT EXISTS receitas (id INTEGER PRIMARY KEY AUTOINCREMENT, arquivo TEXT, titulo TEXT, ingredientes TEXT, tipos_refeicao TEXT, modo_preparo TEXT )")
 
-def salva_receita(arquivo, titulo, ingredientes, tipos_refeicao, objeivos_restricoes, modo_preparo):
+def salva_receita(arquivo, titulo, ingredientes, tipos_refeicao, modo_preparo):
   con = sqlite3.connect(BD_RECEITAS)
   cursor = con.cursor()
-  insert = "INSERT INTO receitas (arquivo, titulo, ingredientes, tipos_refeicao, objetivos_restricoes, modo_preparo) VALUES (?, ?, ?, ?, ?, ?)"
+  insert = "INSERT INTO receitas (arquivo, titulo, ingredientes, tipos_refeicao, modo_preparo) VALUES (?, ?, ?, ?, ?)"
   cursor.execute(
     insert, 
-    (arquivo, titulo, ingredientes, tipos_refeicao, objeivos_restricoes, modo_preparo)
+    (arquivo, titulo, ingredientes, tipos_refeicao, modo_preparo)
   )
   con.commit()
   con.close()
@@ -237,11 +216,7 @@ if __name__ == "__main__":
           #tipos de refeição (Almoço, jantar...)
           tipos_refeicao = extrair_tipos_refeicao(conteudo)
 
-          #objetivos/restricoes
-          objetivos_restricoes = ""
-          # objetivos_restricoes = extrair_objetivos_restricoes(ingredientes)
-
-          salva_receita(nome_arquivo, titulo, str(ingredientes), tipos_refeicao, objetivos_restricoes, preparo)
+          salva_receita(nome_arquivo, titulo, str(ingredientes), tipos_refeicao, preparo)
           print(f"Receita {titulo } salva!")
 
     except Exception as e:

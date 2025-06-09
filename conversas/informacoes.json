@@ -11,7 +11,7 @@
         "quais são suas funções?",
         "quem é você?"
       ],
-      "resposta": "Eu sou um chatbot assistente de receitas! Minha principal função é te ajudar a encontrar receitas que contenham os ingredientes que você me fornecer. Por exemplo, se você digitar 'frango, arroz, brócolis', eu buscarei receitas que usem esses ingredientes.\nDigite 'iniciar pesquisa' para começar!"
+      "resposta": "Eu sou um chatbot assistente de receitas! Minha principal função é te ajudar a encontrar receitas que contenham/excluam os ingredientes que você me fornecer. Por exemplo, se você digitar 'frango, arroz, brócolis', eu buscarei receitas que usem ou não esses ingredientes.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
@@ -37,31 +37,43 @@
         "você tem receitas para dietas específicas?",
         "quais são os objetivos nutricionais das suas receitas?"
       ],
-      "resposta": "Minha especialidade é encontrar receitas com base nos ingredientes que você me informa. Se você deseja seguir uma dieta específica ou tem alguma restrição alimentar, a melhor forma de usar minha busca é listar apenas os ingredientes permitidos ou desejados para essa dieta ou restrição. Eu ainda não possuo filtros pré-definidos para dietas como 'bulking', 'cutting' ou 'zero lactose', mas posso encontrar receitas que, por acaso, se alinhem com essas necessidades se você ajustar os ingredientes da sua busca. \nDigite 'iniciar pesquisa' para começar!"
+      "resposta": "Minha especialidade é encontrar receitas com base nos ingredientes que você me informa. Se você deseja seguir uma dieta específica ou tem alguma restrição alimentar, a melhor forma de usar minha busca é listar apenas os ingredientes permitidos ou indesejados para essa dieta ou restrição.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
         "você ajuda a emagrecer?",
         "quero emagrecer",
         "quero receitas para perder peso",
-        "preciso ganhar massa muscular, você ajuda?",
-        "quero ganhar massa muscular?",
-        "quero receitas de bulking",
-        "quero receitas de cutting"
+        "quero receitas para emagrecer",
+        "quero receitas de cutting",
+        "quero receitas para perder gordura"
       ],
-      "resposta": "Sim! Eu posso te ajudar a encontrar receitas com os ingredientes que você prefere e também a excluir aqueles que você quer evitar. Se você tem um objetivo como emagrecer ou ganhar massa muscular, você pode me fornecer uma lista de ingredientes que se alinhem com esses objetivos ou ingredientes a serem evitados, e eu buscarei receitas que se alinhem com esses objetivos.\nDigite 'iniciar pesquisa' para começar!"
+      "resposta": "Sim! Eu posso te ajudar a encontrar receitas para o emagrecimento. Minhas receitas são todas fitnes, você pode me fornecer uma lista de ingredientes que se alinhem com esses objetivos ou ingredientes a serem evitados, e eu buscarei receitas ideais para você.\nDigite 'iniciar pesquisa' para começar!"
+    },
+    {
+      "mensagens": [
+        "preciso ganhar massa muscular, você ajuda?",
+        "quero ganhar massa muscular",
+        "quero ganhar massa",
+        "receitas para ganhar massa",
+        "quero receitas de bulking",
+        "quero receitas para ganhar massa muscular"
+      ],
+      "resposta": "Sim! Eu posso te ajudar a encontrar receitas para o ganho de massa muscular. Minhas receitas são todas fitnes, você pode me fornecer uma lista de ingredientes que se alinhem com esses objetivos como abacate, frango, castanha, etc  e eu buscarei receitas ideais para você.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
         "tenho alergia a amendoim, você tem receitas sem?",
+        "tenho alergia, você tem receitas restritas?",
         "receitas para alérgicos",
+        "gostaria de receitas para alérgicos",
         "receitas para intolerantes à lactose",
         "sou intolerante à lactose, e agora?",
         "preciso de receitas sem glúten para o café da manhã",
         "quero receitas sem glutem",
         "Sou diabético, você tem receitas sem açúcar?"
       ],
-      "resposta": "Com certeza! Tenho receitas para as mais diversas restrições, você pode me dizer explicitamente quais ingredientes evitar e eu buscarei receitas que se alinhem com esses objetivos.\nDigite 'iniciar pesquisa' para começar!"
+      "resposta": "Com certeza! Tenho receitas para as mais diversas restrições, você pode me dizer explicitamente quais ingredientes evitar e eu buscarei receitas que não contenham esses ingredientes.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
