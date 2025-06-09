@@ -12,7 +12,9 @@
         "quero receitas",
         "preciso de uma receita",
         "buscar receitas",
-        "encontrar receitas"
+        "encontrar receitas",
+        "pesquisar novamente",
+        "pesquisar de novo"
       ],
       "resposta": "Vamos iniciar sua pesquisa por receitas! Informe os ingredientes separados por vírgula para que eu possa encontrar as receitas adequadas."
     }

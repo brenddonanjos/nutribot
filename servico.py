@@ -31,11 +31,19 @@ def get_resposta():
   
 @service.post("/receitas")
 def get_receitas():  
-  conteudo = request.json
-  ingredientes = conteudo['ingredientes'].split(',')
+  data = request.json
+  ingredientes = data['ingredientes']
   ingredientes = [ingrediente.strip() for ingrediente in ingredientes]
 
-  sucesso, receitas = receitas_com_ingredientes(ingredientes)
+  tipo = data['tipo']
+
+  if tipo == 'com_ingredientes':
+    sucesso, receitas = receitas_com_ingredientes(ingredientes)
+  elif tipo == 'sem_ingredientes':
+    sucesso, receitas = receitas_sem_ingredientes(ingredientes)
+  else:
+    sucesso = False
+    receitas = []
 
   return Response(
     json.dumps({"receitas": receitas}), 

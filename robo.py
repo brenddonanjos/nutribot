@@ -45,10 +45,21 @@ def receitas_com_ingredientes(ingredientes):
     return sucesso, receitas_selecionadas
 
 def receitas_sem_ingredientes(ingredientes):
-    ...
+    receitas = lista_receitas()
+    receitas_selecionadas = []
+    sucesso = False
+    if receitas:
+        for receita in receitas:
+            ingredientes_receita = ast.literal_eval(receita['ingredientes'].lower()) 
+            if not any(ingrediente.lower() in ingredientes_receita for ingrediente in ingredientes):
+                receitas_selecionadas.append({
+                    "arquivo": receita["arquivo"],
+                    "titulo": receita["titulo"]
+                })
+                sucesso = True
+    return sucesso, receitas_selecionadas
 
-def receitas_objetivos_restricoes():
-    ...
+
 
 def executar(robo):
     while True:

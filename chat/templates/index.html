@@ -5,22 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriBot - Seu Assistente Nutricional</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="chat-container">
         <header class="chat-header">
             <i class="material-icons">restaurant_menu</i>
             <h1>NutriBot</h1>
-            <p>Seu assistente para uma alimentação saudável!</p>
+            <p>Seu buscador inteligente de receitas, com base em ingredientes!</p>
         </header>
         <div id="chat-box" class="chat-box">
-            <!-- Mensagens aparecerão aqui -->
-            <div class="message bot">
-                <div class="message-content">
-                    Olá! 👋 Sou o NutriBot. Como posso te ajudar ?
-                </div>
-            </div>
         </div>
         <footer class="chat-input-area">
             <input type="text" id="user-input" placeholder="Digite sua mensagem aqui..." autocomplete="off">
@@ -30,9 +24,12 @@
             <button id="search-button" class="search-button">
                 <i class="material-icons">search</i>
             </button>
+            <button id="remove-button" class="remove-button">
+                <i class="material-icons">remove</i>
+            </button>
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 
-PATH_RECEITAS = "receitas/"
+PATH_RECEITAS = "chat/static/receitas/"
 PATH_PALAVRAS_INDESEJADAS = "regras/palavras_indesejadas.json"
 PATH_REGRAS_CLASSIFICACAO = "regras/regras_classificacao.json"
 BD_RECEITAS = os.getenv("BD_RECEITAS", "bd/receitas.sqlite3")
@@ -241,11 +241,13 @@ if __name__ == "__main__":
           objetivos_restricoes = ""
           # objetivos_restricoes = extrair_objetivos_restricoes(ingredientes)
 
-          salva_receita(path_arquivo, titulo, str(ingredientes), tipos_refeicao, objetivos_restricoes, preparo)
+          salva_receita(nome_arquivo, titulo, str(ingredientes), tipos_refeicao, objetivos_restricoes, preparo)
           print(f"Receita {titulo } salva!")
 
     except Exception as e:
       print(f"Erro ao ler o diretório de receitas: {e}")
+  else:
+    print(f"Diretório de receitas não encontrado: {PATH_RECEITAS}")
   
   
 

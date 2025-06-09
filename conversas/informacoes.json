@@ -11,7 +11,7 @@
         "quais são suas funções?",
         "quem é você?"
       ],
-      "resposta": "Eu sou um chatbot nutricionista! Posso te ajudar a encontrar receitas com base em ingredientes, seus objetivos (como bulking ou cutting) e restrições alimentares (como zero lactose, zero glúten, zero açúcar, etc.)."
+      "resposta": "Eu sou um chatbot assistente de receitas! Minha principal função é te ajudar a encontrar receitas que contenham os ingredientes que você me fornecer. Por exemplo, se você digitar 'frango, arroz, brócolis', eu buscarei receitas que usem esses ingredientes.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
@@ -19,7 +19,7 @@
         "suas dicas são médicas?",
         "posso seguir suas receitas sem consultar um médico?"
       ],
-      "resposta": "Sou um sistema para te auxiliar com ideias de receitas e informações gerais! Lembre-se que minhas sugestões não substituem o acompanhamento e as orientações personalizadas de um nutricionista ou profissional de saúde. Sempre consulte um especialista."
+      "resposta": "Não! Eu sou um sistema para te auxiliar com ideias de receitas e informações gerais! Lembre-se que minhas sugestões não substituem o acompanhamento e as orientações personalizadas de um nutricionista ou profissional de saúde. Sempre consulte um especialista."
     },
     {
       "mensagens": [
@@ -27,7 +27,7 @@
         "qual a fonte das suas informações?",
         "suas receitas são confiáveis?"
       ],
-      "resposta": "Minhas receitas são extraídas de uma base de dados (arquivos .txt) cuidadosamente preparada, com foco em variedade e objetivos nutricionais específicos."
+      "resposta": "Minhas receitas são extraídas de uma base de dados (arquivos .txt) cuidadosamente preparada, com foco em variedade de pratos."
     },
     {
       "mensagens": [
@@ -37,32 +37,42 @@
         "você tem receitas para dietas específicas?",
         "quais são os objetivos nutricionais das suas receitas?"
       ],
-      "resposta": "Eu tenho receitas para objetivos como bulking (ganho de massa), cutting (perda de gordura), dietas low carb, high carb, e também para restrições como zero lactose, zero glúten, zero açúcar, e algumas que evitam alérgenos comuns como amendoim ou camarão."
+      "resposta": "Minha especialidade é encontrar receitas com base nos ingredientes que você me informa. Se você deseja seguir uma dieta específica ou tem alguma restrição alimentar, a melhor forma de usar minha busca é listar apenas os ingredientes permitidos ou desejados para essa dieta ou restrição. Eu ainda não possuo filtros pré-definidos para dietas como 'bulking', 'cutting' ou 'zero lactose', mas posso encontrar receitas que, por acaso, se alinhem com essas necessidades se você ajustar os ingredientes da sua busca. \nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
         "você ajuda a emagrecer?",
+        "quero emagrecer",
         "quero receitas para perder peso",
-        "preciso ganhar massa muscular, você ajuda?"
+        "preciso ganhar massa muscular, você ajuda?",
+        "quero ganhar massa muscular?",
+        "quero receitas de bulking",
+        "quero receitas de cutting"
       ],
-      "resposta": "Sim! Posso te mostrar receitas para 'cutting' se seu objetivo é perda de gordura, ou receitas para 'bulking' se você busca ganho de massa muscular.\nDigite 'iniciar pesquisa' para começar!"
+      "resposta": "Sim! Eu posso te ajudar a encontrar receitas com os ingredientes que você prefere e também a excluir aqueles que você quer evitar. Se você tem um objetivo como emagrecer ou ganhar massa muscular, você pode me fornecer uma lista de ingredientes que se alinhem com esses objetivos ou ingredientes a serem evitados, e eu buscarei receitas que se alinhem com esses objetivos.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
         "tenho alergia a amendoim, você tem receitas sem?",
+        "receitas para alérgicos",
+        "receitas para intolerantes à lactose",
         "sou intolerante à lactose, e agora?",
         "preciso de receitas sem glúten para o café da manhã",
+        "quero receitas sem glutem",
         "Sou diabético, você tem receitas sem açúcar?"
       ],
-      "resposta": "Com certeza! Tenho receitas para as mais diversas restrições, como 'zero glúten', 'zero lactose', 'zero açúcar', 'sem amendoim', 'sem camarão', etc., e para qual refeição você busca, que eu farei o meu melhor para encontrar opções adequadas.\nDigite 'iniciar pesquisa' para começar!"
+      "resposta": "Com certeza! Tenho receitas para as mais diversas restrições, você pode me dizer explicitamente quais ingredientes evitar e eu buscarei receitas que se alinhem com esses objetivos.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
         "quais tipos de refeição você tem?",
         "você tem receitas para lanches?",
-        "e sobremesas?"
+        "e sobremesas?",
+        "você tem receitas para sobremesas?",
+        "você tem receitas para café da manhã?",
+        "Quais tipos de refeição você tem?"
       ],
-      "resposta": "Eu tenho receitas para café da manhã, almoço, jantar e lanches! No momento, meu foco não são sobremesas tradicionais, mas alguns lanches podem ser adaptados como opções mais saudáveis e doces."
+      "resposta": "Minha base de dados inclui receitas que podem servir para café da manhã, almoço, jantar e lanches! A categorização exata dependerá dos ingredientes que você buscar (e dos que você excluir). Minhas receitas são focadas em refeições completas e com ingredientes que sejam saudáveis e que possam ser usados em diferentes refeições.\nDigite 'iniciar pesquisa' para começar!"
     },
     {
       "mensagens": [
@@ -70,7 +80,7 @@
         "as receitas são fáceis de fazer?",
         "preciso de algo rápido"
       ],
-      "resposta": "Eu tenho uma variedade de receitas, desde algumas mais simples até outras um pouco mais elaboradas. O modo de preparo está detalhado em cada uma. Se você especificar que busca algo 'rápido' ou 'fácil', posso tentar priorizar isso na busca, mas o principal são os objetivos nutricionais."
+      "resposta": "Eu tenho uma variedade de receitas, desde algumas mais simples até outras um pouco mais elaboradas. O modo de preparo está detalhado em cada uma.Minha busca se concentra em encontrar receitas que contenham os ingredientes que você me fornece e/ou que não contenham os ingredientes que você quer evitar.\nDigite 'iniciar pesquisa' para começar!"
     }
   ]
 }
